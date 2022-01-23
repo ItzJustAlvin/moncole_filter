@@ -1,0 +1,20 @@
+h3
+{
+    font-size: 25px !important;
+}
+
+.btn-success:hover
+{
+    background-color: blueviolet;
+}
+
+canvas {
+    animation-name: monocle;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes monocle {
+    from {box-shadow: 1px 1px 38px rgb(187, 131, 67);}
+    to {box-shadow: 1px 1px 38px rgb(255, 255, 255);}
+}
